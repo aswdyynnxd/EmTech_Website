@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksyunaryong Filipino</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Diksyunaryong Filipino</h1>
+            <p>Ang iyong gabay sa mga salitang Filipino</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Hanapin ang salita...">
+                <button id="search-btn">Hanapin</button>
+            </div>
+        </section>
+
+        <section class="word-display" id="word-display">
+            
+            <div class="welcome-message">
+                <h2>Maligayang pagdating!</h2>
+                <p>Maghanap ng salitang Filipino upang makita ang kahulugan nito.</p>
+                <p>Halimbawa: <span class="example-word" data-word="mahal">mahal</span>, <span class="example-word" data-word="bayan">bayan</span>, <span class="example-word" data-word="kilig">kilig</span></p>
+            </div>
+        </section>
+
+        <section class="popular-words">
+            <h3>Mga Sikat na Salita</h3>
+            <div class="word-list">
+                <span class="word-tag" data-word="pag-ibig">pag-ibig</span>
+                <span class="word-tag" data-word="bayanihan">bayanihan</span>
+                <span class="word-tag" data-word="kilig">kilig</span>
+                <span class="word-tag" data-word="salamat">salamat</span>
+                <span class="word-tag" data-word="mabuhay">mabuhay</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© Daug et. al. Lahat ng karapatan ay nakalaan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
